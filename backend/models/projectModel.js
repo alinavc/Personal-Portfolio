@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 
-const ProjDisplay = new mongoose.Schema({
+const ProjSchema = new mongoose.Schema({
     title:{
         type: String,
         required: true,
         unique: true
     },
-    skills:{
+    skills:[{
         type: String,
         required: true
-    },
+    }],
     desc:{
         type: String,
         required: true
@@ -24,4 +24,5 @@ const ProjDisplay = new mongoose.Schema({
     }
 });
 
-export const projModel = mongoose.model("projColl",ProjDisplay);
+const projModel = mongoose.model("collections",ProjSchema);
+module.exports = projModel;
