@@ -24,5 +24,5 @@ const ProjSchema = new mongoose.Schema({
     }
 });
 
-const projModel = mongoose.model("collections",ProjSchema);
+const projModel = mongoose.model("projcoll",ProjSchema);
 module.exports = projModel;
