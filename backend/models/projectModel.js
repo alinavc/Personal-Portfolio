@@ -18,11 +18,11 @@ const ProjSchema = new mongoose.Schema({
         type: String,
         required:false
     },
-    imgLink:{
+    srcLink:{
         type:String,
         required:false
     }
 });
 
-const projModel = mongoose.model("projcoll",ProjSchema);
-module.exports = projModel;
+const ProjectModel = mongoose.model("projects",ProjSchema);
+module.exports = ProjectModel;

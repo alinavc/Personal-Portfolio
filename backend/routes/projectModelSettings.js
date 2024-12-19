@@ -3,9 +3,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const ProjectModel = require('../models/projectModel.js');
 
-const projRouter = express.Router();
+const ProjectRouter = express.Router();
 
-projRouter.get("/", async(req,res) =>{
+ProjectRouter.get("/", async(req,res) =>{
     try{
         const response = await ProjectModel.find({});
         res.json(response);
@@ -14,4 +14,4 @@ projRouter.get("/", async(req,res) =>{
     }
 });
 
-module.exports=projRouter;
+module.exports=ProjectRouter;
