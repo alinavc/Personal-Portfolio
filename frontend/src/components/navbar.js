@@ -1,12 +1,17 @@
+import './navbar.css';
+import '../pages/home.js';
+
 import {Link} from 'react-router-dom';
 
 export const Navbar = () =>{
-    return (<div className="navbar">
-        <Link to='/'>Home</Link>
-        <Link to='/'>About</Link>
-        <Link to = '/'>Projects</Link>
-        <Link to= '/'>Skills</Link>
-        <Link to ='/'>Experience</Link>
-        <Link to='/'>Contact</Link>
+    return (<div className="nav-placement">
+        <div className='nav-bg'>
+            <Link to='#home' className='nav-link'>Home</Link>
+            <Link to='#about' className='nav-link'>About</Link>
+            <Link to = '#projects' className='nav-link'>Projects</Link>
+            <Link to= '#skills' className='nav-link'>Skills</Link>
+            <Link to ='#experience' className='nav-link'>Experience</Link>
+            <Link to='#contact' className='nav-link'>Contact</Link>
+        </div>
     </div>)
 }

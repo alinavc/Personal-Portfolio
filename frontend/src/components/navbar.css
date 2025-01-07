@@ -1,0 +1,32 @@
+.nav-placement{
+    position: sticky;
+    justify-content: center;
+    display: flex;
+    padding-top: 1%;
+}
+
+.nav-bg{
+    background-color: #f5e6ea;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    max-width: 50%;
+    padding: 0px 30px;
+}
+
+.nav-link{
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    background-color: #dfafbc;
+    border-radius: 30%;
+}
