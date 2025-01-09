@@ -1,0 +1,33 @@
+#home{}
+
+#about{}
+
+#projects{}
+
+#skills{
+    padding-top: 10px;
+    max-width: 50%;
+    padding-left: 25%;
+}
+
+#experience{}
+
+#contact{}
+
+.buttonStyle{
+    background-color: #dfafbc;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+a{
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#githubImg{
+    content: '.assets/icons/github/lightGithub.png';
+}
