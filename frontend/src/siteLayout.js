@@ -1,10 +1,10 @@
 import './siteLayout.css';
-import {About} from './about.js';
-import {Skills} from './skills.js';
-import {Home} from './home.js';
-import {Projects} from './projects.js';
-import {Experience} from './experience.js';
-import {Contact} from './contact.js';
+import {About} from './pages/about.js';
+import {Skills} from './pages/skills.js';
+import {Home} from './pages/home.js';
+import {Projects} from './pages/projects.js';
+import {Experience} from './pages/experience.js';
+import {Contact} from './pages/contact.js';
 
 export const Layout = () =>{
 
