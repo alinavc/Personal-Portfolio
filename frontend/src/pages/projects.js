@@ -1,7 +1,9 @@
+import '../App.css';
+
 export const Projects = () => {
     return(
         <div>
-            <h2>Projects</h2>
+            <section className='section-header'>Projects</section>
         </div>
     );
 }

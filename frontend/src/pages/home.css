@@ -1,0 +1,59 @@
+.homeBox{
+    display: flex;
+    padding:3.5%;
+    padding-left:5%;
+}
+
+.homeTxt{
+    width:50%;
+    height:fit-content;
+    text-align: left;
+}
+
+.homeImg{
+    width: 40%;
+    padding-left: 10%;
+}
+
+.homeLinks{
+    text-align: left;
+    display:inline-flex;
+}
+
+img{
+    height:15%;
+    border-radius: 10%;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    background-color: #f5e6ea;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.home-button{
+    background-color: #f5e6ea;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+#githubImg{
+    content: url('../assets/icons/github/lightGithub.png');
+    height:35px;
+    width: 35px;
+    align-content: center;
+}
+
+#linkedinImg{
+    content: url('../assets/icons/linkedin/lightLinkedin.png');
+    height:35px;
+    width: 35px;
+}
+
+#nonIconButton{
+    padding-top: 15px;
+}
