@@ -1,4 +1,5 @@
 import '../App.css';
+import './projects.css';
 import {useEffect,useState} from 'react';
 import axios from 'axios';
 
@@ -23,7 +24,24 @@ export const Projects = () => {
     return(
         <div>
             <section className='section-header'>Projects</section>
-            <ul></ul>
+            <ul>
+                {projects.map((proj) => {
+
+                    let skillsArr = Object.values(proj.skills || {});
+                    let skillsStr=skillsArr.join(', ');
+
+                    return(
+                        <li key={proj._id}>
+                            <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
+                                <h3 className='projTitle'>{proj.title}</h3>
+                                <span className='projSkills'>{skillsStr}</span>
+                                <p className='projDesc'>{proj.desc}</p>
+                                <img className='projImg' src={proj.imgURL}></img>
+                            </a>
+                        </li>
+                    );
+                })}
+            </ul>
         </div>
     );
 }
