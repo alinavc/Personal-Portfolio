@@ -33,10 +33,14 @@ export const Projects = () => {
                     return(
                         <li key={proj._id}>
                             <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
-                                <h3 className='projTitle'>{proj.title}</h3>
-                                <span className='projSkills'>{skillsStr}</span>
-                                <p className='projDesc'>{proj.desc}</p>
-                                <img className='projImg' src={proj.imgURL}></img>
+                                <div className='leftBox'>
+                                    <h3 className='projTitle'>{proj.title}</h3>
+                                    <span className='projSkills'>{skillsStr}</span>
+                                    <p className='projDesc'>{proj.desc}</p>
+                                </div>
+                                <div className='rightBox'>
+                                    <img className='projImg' src={proj.imgURL}></img>
+                                </div>
                             </a>
                         </li>
                     );
