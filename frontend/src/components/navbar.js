@@ -6,12 +6,12 @@ import {Link} from 'react-router-dom';
 export const Navbar = () =>{
     return (<div className="nav-placement">
         <div className='nav-bg'>
-            <Link to='#home' className='nav-link'>Home</Link>
-            <Link to='#about' className='nav-link'>About</Link>
-            <Link to = '#projects' className='nav-link'>Projects</Link>
-            <Link to= '#skills' className='nav-link'>Skills</Link>
-            <Link to ='#experience' className='nav-link'>Experience</Link>
-            <Link to='#contact' className='nav-link'>Contact</Link>
+            <a href='#home' className='nav-link'>Home</a>
+            <a href='#about' className='nav-link'>About</a>
+            <a href ='#projects' className='nav-link'>Projects</a>
+            <a href='#skills' className='nav-link'>Skills</a>
+            <a href ='#experience' className='nav-link'>Experience</a>
+            <a href='#contact' className='nav-link'>Contact</a>
         </div>
     </div>)
 }

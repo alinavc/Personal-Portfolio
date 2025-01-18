@@ -10,6 +10,7 @@ export const Layout = () =>{
 
     return(
         <div>
+        <section id='navHolder'></section>
         <section id='home'>
             <Home/>
         </section>

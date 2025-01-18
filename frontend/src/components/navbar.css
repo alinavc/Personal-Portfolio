@@ -1,5 +1,4 @@
 .nav-placement{
-    position: sticky;
     justify-content: center;
     display: flex;
     padding-top: 1%;
@@ -13,6 +12,8 @@
     display: flex;
     max-width: 50%;
     padding: 0px 30px;
+    position: fixed;
+    box-shadow: 3px 6px 6px grey;
 }
 
 .nav-link{
@@ -30,4 +31,8 @@
 .nav-link:hover{
     background-color: #dfafbc;
     border-radius: 30%;
+}
+
+html{
+    scroll-behavior: smooth;
 }
