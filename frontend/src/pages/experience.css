@@ -32,14 +32,19 @@
     align-items: center;
     gap:1rem;
     z-index: 10;
-    position: absolute;
-    margin-left: 36.75%;
-    background-color: aqua;
 }
 
 #tl1{
+    position: absolute;
+    background-color: blue;
 }
 
-#tl2{}
+#tl2{
+    position: absolute;
+    background-color: purple;
+}
 
-#tl3{}
+#tl3{
+    position: absolute;
+    background-color: aquamarine;
+}
