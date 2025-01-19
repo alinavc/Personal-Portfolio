@@ -1,29 +1,35 @@
+.exp-placeholder{
+    padding-bottom: 1%;
+}
+
 .exp-timeline{
     padding-top: 1%;
+    position: relative;
+    height:65rem;
+    width:100%;
 }
 
 .exp-line{
     background-color: darkgrey;
     border-radius: 5px;
-    position: relative;
+    position: absolute;
+    left:50%;
 }
 
 .jobIcon{
     content: url('../assets/icons/misc/lightJob.png');
-    width:3%;
-    height:3%;
+    width:50%;
+    height:50%;
     outline: solid 2px;
     border-radius: 50px;
-    outline-offset: 5px;
 }
 
 .gradIcon{
     content: url('../assets/icons/misc/lightGrad.png');
-    width:3%;
-    height:3%;
+    width:50%;
+    height:50%;
     outline: solid 2px;
     border-radius: 50px;
-    outline-offset: 5px;
 }
 
 .exp-events{
@@ -36,15 +42,66 @@
 
 #tl1{
     position: absolute;
-    background-color: blue;
+    display: flex;
+    z-index: 5;
+    margin-right: 13rem;
+    top:1rem;
 }
 
 #tl2{
     position: absolute;
-    background-color: purple;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 5;
+    margin-left: 11rem;
+    top:20rem;
 }
 
 #tl3{
     position: absolute;
-    background-color: aquamarine;
+    display: flex;
+    z-index: 5;
+    margin-right: 13rem;
+    top:40rem;
+}
+
+.tlTitle{
+    text-align: left;
+}
+
+.tlLocation{
+    text-align: left;
+}
+
+.tlDesc{
+    text-align: left;
+    width: 80%;
+}
+
+.tlYear{
+    text-align: right;
+}
+
+.exp-leftBox{
+    display: inline-block;
+    width:42rem;
+    padding: 20px;
+    background-color: #f5e6ea;
+    box-shadow: 3px 6px 6px grey;
+    border-radius: 20px;
+    outline-offset: -1rem;
+}
+
+.exp-midBox{
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 11%;
+    height: 100%;
+}
+
+.exp-rightBox{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 40px;
 }

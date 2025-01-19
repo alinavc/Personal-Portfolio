@@ -28,5 +28,6 @@ export const Layout = () =>{
         <section id='contact'>
             <Contact/>
         </section>
+        <a className='modeSwitch'></a>
         </div>);
 };
