@@ -1,21 +1,48 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(#f5f1e6, white);
+  background-image: linear-gradient(var(--fifth-col), var(--fourth-col));
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--first-col);
 }
 
 a{
   margin: 5px;
   display: inline-block;
   border-radius: 20px;
-  color: black;
+  color: var(--first-col);
 }
 
 .section-header{
   font-size: 40px;
-  background-color: #f5e6ea;
+  background-color: var(--third-col);
   border-radius: 10px;
   max-width: 20%;
   background-position-x: center;
   margin-left: 40%;
+}
+
+:root{
+  --first-col:black;
+  --second-col:#dfafbc;
+  --third-col:#f5e6ea;
+  --fourth-col:white;
+  --fifth-col:#f5f1e6;
+  --sixth-col:grey;
+  --grad-icon:url('./assets/icons/misc/lightGrad.png');
+  --job-icon:url('./assets/icons/misc/lightJob.png');
+  --github-icon:url('./assets/icons/github/lightGithub.png');
+  --linkedin-icon:url('./assets/icons/linkedin/lightLinkedin.png');
+}
+
+.darkMode{
+  --first-col:white;
+  --second-col:#676570;
+  --third-col:#404045;
+  --fourth-col:black;
+  --fifth-col: #958791;
+  --sixth-col:#f5e6ea;
+  --grad-icon:url('./assets/icons/misc/darkGrad.png');
+  --job-icon:url('./assets/icons/misc/darkJob.png');
+  --github-icon:url('./assets/icons/github/darkGithub.png');
+  --linkedin-icon:url('./assets/icons/linkedin/darkLinkedin.png');
 }

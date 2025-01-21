@@ -7,15 +7,15 @@ li{
 }
 
 .projBox{
-    background-color: #f5e6ea;
+    background-color: var(--third-col);
     padding: 15px;
-    color: black;
+    color: var(--first-col);
     text-decoration: none;
     width:40%;
     border-radius: 20px;
     display: flex;
     margin-left: 30%;
-    box-shadow: 3px 6px 6px grey;
+    box-shadow: 3px 6px 6px var(--sixth-col);
 }
 
 .leftBox{

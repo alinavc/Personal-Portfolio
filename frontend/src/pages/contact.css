@@ -1,5 +1,5 @@
 .contactBox{
-    background-color: #dfafbc;
+    background-color: var(--second-col);
     border-radius: 10px;
     width:30%;
     padding:2%;
@@ -10,7 +10,7 @@
 }
 
 form input, form textarea{
-    box-shadow: 3px 6px 6px grey;
+    box-shadow: 3px 6px 6px var(--sixth-col);
     margin:10px 0;
     border: none;
     border-radius: 10px;
@@ -21,7 +21,7 @@ form input, form textarea{
 
 form button{
     margin:10px 0;
-    background-color: #f5e6ea;
+    background-color: var(--third-col);
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -31,4 +31,5 @@ form button{
 form textarea{
     height:200px;
     width:auto;
+    resize: none;
 }

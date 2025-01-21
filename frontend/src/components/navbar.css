@@ -6,20 +6,20 @@
 }
 
 .nav-bg{
-    background-color: #f5e6ea;
+    background-color: var(--third-col);
     border-radius: 50px;
     justify-content: center;
     display: flex;
     max-width: 50%;
     padding: 0px 30px;
     position: fixed;
-    box-shadow: 3px 6px 6px grey;
+    box-shadow: 3px 6px 6px var(--sixth-col);
     z-index: 10;
 }
 
 .nav-link{
     padding: 5px;
-    color:black;
+    color:var(--first-col);
     text-decoration: none;
     font-size: larger;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -30,7 +30,7 @@
 }
 
 .nav-link:hover{
-    background-color: #dfafbc;
+    background-color: var(--second-col);
     border-radius: 30%;
 }
 

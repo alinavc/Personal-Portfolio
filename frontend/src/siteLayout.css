@@ -3,7 +3,7 @@
 }
 
 #home{
-    background-color: #dfafbc;
+    background-color: var(--second-col);
     max-height: 750px;
 }
 
@@ -30,14 +30,12 @@
     padding-bottom: 5%;
 }
 
-.modeSwitch{
-    content: url('./assets/icons/siteMode/moon.png');
-    width:50px;
-    height: 50px;
-    border: solid black;
+#modeSwitch{
+    border: solid var(--first-col);
     border-radius: 50px;
-    box-shadow: 3px 6px 6px grey;
+    box-shadow: 3px 6px 6px var(--sixth-col);
     position: fixed;
     right:50px;
     bottom: 50px;
+    cursor: pointer;
 }

@@ -3,10 +3,10 @@
 }
 
 .skills-button{
-    background-color: #dfafbc;
+    background-color: var(--second-col);
     padding: 10px;
-    color: black;
+    color: var(--first-col);
     font-size: large;
     text-decoration: none;
-    box-shadow: 3px 6px 6px grey;
+    box-shadow: 3px 6px 6px var(--sixth-col);
 }
