@@ -5,6 +5,7 @@ import {Home} from './pages/home.js';
 import {Projects} from './pages/projects.js';
 import {Experience} from './pages/experience.js';
 import {Contact} from './pages/contact.js';
+import {ARR} from './pages/arr.js';
 
 export const Layout = () =>{
 
@@ -29,5 +30,8 @@ export const Layout = () =>{
             <Contact/>
         </section>
         <a className='modeSwitch'></a>
+        <section>
+            <ARR/>
+        </section>
         </div>);
 };
