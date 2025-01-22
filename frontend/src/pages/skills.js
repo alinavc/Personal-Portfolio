@@ -23,7 +23,7 @@ export const Skills = () =>{
                     <a className='skills-button'>Time Management</a>
                     <a className='skills-button'>Problem Solving</a>
                     <a className='skills-button'>Meeting Deadlines</a>
-                    <a className='skills-button'>Spanish</a>
+                    <a className='skills-button'>Bilingual - Spanish</a>
                     <a className='skills-button'>Leadership</a>
                 </div>
         </div>
