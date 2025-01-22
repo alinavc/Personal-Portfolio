@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.259f384d.css",
-    "main.js": "/static/js/main.aab9692e.js",
+    "main.js": "/static/js/main.0bc96551.js",
     "static/media/alina.jpg": "/static/media/alina.e1fa7ba65ce3537e56c6.jpg",
     "static/media/resume.pdf": "/static/media/resume.588e4c39d36ae1acf9e4.pdf",
     "static/media/darkGithub.png": "/static/media/darkGithub.74234450c8987f514583.png",
@@ -15,10 +15,10 @@
     "static/media/darkJob.png": "/static/media/darkJob.3184e41cdabc81691c75.png",
     "index.html": "/index.html",
     "main.259f384d.css.map": "/static/css/main.259f384d.css.map",
-    "main.aab9692e.js.map": "/static/js/main.aab9692e.js.map"
+    "main.0bc96551.js.map": "/static/js/main.0bc96551.js.map"
   },
   "entrypoints": [
     "static/css/main.259f384d.css",
-    "static/js/main.aab9692e.js"
+    "static/js/main.0bc96551.js"
   ]
 }
