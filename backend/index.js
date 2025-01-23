@@ -8,7 +8,7 @@ app.use(express.json()); // Parse JSON bod
 app.use(cors()); // Comm w frontend/backend
 
 //import/implement routers
-const ProjectRouter=require('../routes/projectModelSettings.js');
+const ProjectRouter=require('./routes/projectModelSettings.js');
 app.use("/",ProjectRouter);
 
 //connect mongodb db
