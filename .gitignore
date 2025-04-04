@@ -3,7 +3,7 @@
 #private info
 backend/.env
 frontend/.env
-frontend/assets
+frontend/assets/*
 
 # dependencies
 frontend/node_modules
