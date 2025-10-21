@@ -1,8 +1,8 @@
 .nav-placement{
-    justify-content: center;
     display: flex;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left:35%;
 }
 
 .nav-bg{
@@ -10,7 +10,7 @@
     border-radius: 50px;
     justify-content: center;
     display: flex;
-    max-width: 50%;
+    max-width: 120%;
     padding: 0px 30px;
     position: fixed;
     box-shadow: 3px 6px 6px var(--sixth-col);
@@ -36,4 +36,21 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 430px){
+    .nav-link{
+        font-size: 15px;
+        padding:1px;
+    }
+
+    .nav-placement{
+        margin-left:3%;
+    }
+
+    .nav-bg{
+        top:0;
+        padding: 0px 0px;
+        position:fixed;
+    }
 }

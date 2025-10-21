@@ -32,16 +32,30 @@ export const Projects = () => {
 
                     return(
                         <li key={proj._id}>
-                            <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
-                                <div className='leftBox'>
-                                    <h3 className='projTitle'>{proj.title}</h3>
-                                    <span className='projSkills'>{skillsStr}</span>
-                                    <p className='projDesc'>{proj.desc}</p>
-                                </div>
-                                <div className='rightBox'>
-                                    <img className='projImg' src={proj.imgURL}></img>
-                                </div>
-                            </a>
+                            <div className='projBoxPC'>
+                                <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
+                                    <div className='leftBox'>
+                                        <h3 className='projTitle'>{proj.title}</h3>
+                                        <span className='projSkills'>{skillsStr}</span>
+                                        <p className='projDesc'>{proj.desc}</p>
+                                    </div>
+                                    <div className='rightBox'>
+                                        <img className='projImg' src={proj.imgURL}></img>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className='projBoxMobile'>
+                                <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
+                                    <div className='leftBox'>
+                                        <h3 className='projTitle'>{proj.title}</h3>
+                                        <span className='projSkills'>{skillsStr}</span>
+                                    </div>
+                                    <div className='rightBox'>
+                                        <img className='projImg' src={proj.imgURL}></img>
+                                        <p className='projDesc'>{proj.desc}</p>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                     );
                 })}

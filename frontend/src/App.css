@@ -1,8 +1,14 @@
+html,body{
+  margin:0;
+  height: 100%;
+  width:100%;
+}
 .App {
   text-align: center;
   background-image: linear-gradient(var(--fifth-col), var(--fourth-col));
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: var(--first-col);
+  margin:0;
+  min-height: 100%;
 }
 
 a{
@@ -45,4 +51,14 @@ a{
   --job-icon:url('./assets/icons/misc/darkJob.png');
   --github-icon:url('./assets/icons/github/darkGithub.png');
   --linkedin-icon:url('./assets/icons/linkedin/darkLinkedin.png');
+}
+
+@media only screen and (max-width: 430px){
+  .section-header{
+    font-size: 30px;
+    max-width: none;
+    background-position-x: center;
+    width:100%;
+    margin-left: -10px;
+  }
 }
