@@ -37,7 +37,7 @@ export const Layout = () =>{
         <section id='contact'>
             <Contact/>
         </section>
-        <img src={modeIcon} id='modeSwitch' style={{width:'50px',height:'50px'}} title='Dark Mode' onClick={checkMode}></img>
+        <img src={modeIcon} id='modeSwitch' style={{width:'50px',height:'50px'}} title='Dark Mode' onClick={checkMode} alt='mode switch'></img>
         <section>
             <ARR/>
         </section>
