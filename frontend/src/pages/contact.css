@@ -34,3 +34,7 @@ form textarea{
     width:auto;
     resize: none;
 }
+
+div p{
+    color:var(--first-col);
+}

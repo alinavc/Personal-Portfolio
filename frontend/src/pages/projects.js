@@ -44,18 +44,7 @@ export const Projects = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className='projBoxMobile'>
-                                <a className='projBox' href={proj.srcLink} target='_blank' rel='noreferrer'>
-                                    <div className='leftBox'>
-                                        <h3 className='projTitle'>{proj.title}</h3>
-                                        <span className='projSkills'>{skillsStr}</span>
-                                    </div>
-                                    <div className='rightBox'>
-                                        <img className='projImg' src={proj.imgURL}></img>
-                                        <p className='projDesc'>{proj.desc}</p>
-                                    </div>
-                                </a>
-                            </div>
+                            
                         </li>
                     );
                 })}

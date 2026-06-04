@@ -58,9 +58,6 @@ li{
     visibility: visible;
 }
 
-.projBoxMobile{
-    visibility:collapse;
-}
 
 @media only screen and (max-width: 430px){
     .projBox{
@@ -84,10 +81,6 @@ li{
 
     .projBoxPC{
         visibility: collapse;
-    }
-
-    .projBoxMobile{
-        visibility:visible;
     }
 
     .leftBox{

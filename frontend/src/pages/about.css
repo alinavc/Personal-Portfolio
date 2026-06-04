@@ -5,6 +5,10 @@
     font-size: large;
 }
 
+div{
+    color:var(--first-col);
+}
+
 @media only screen and (max-width: 430px){
     .aboutBox{
         padding: 5% 0%;
